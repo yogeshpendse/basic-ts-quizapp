@@ -1,0 +1,143 @@
+:root {
+  --button-disable: rgba(13, 110, 253, 0.65);
+  --button-active: #0b5ed7;
+}
+
+* {
+  font-family: sans-serif;
+  padding: 0rem;
+  margin: 0rem;
+  box-sizing: border-box;
+  background-color: #fffefc;
+  color: #111111;
+}
+
+.question-container {
+  height: 100vh;
+  display: flex;
+}
+.answers {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.question {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 0 2rem;
+  width: 100%;
+}
+.submit-button {
+  border: none;
+  padding: 0.5rem;
+  width: 30%;
+  max-width: 10rem;
+  align-self: flex-end;
+  font-size: medium;
+  border-radius: 1rem;
+}
+.button-active {
+  background-color: var(--button-active);
+  color: white;
+}
+.button-disabled {
+  background-color: var(--button-disable);
+  color: white;
+}
+@media screen and (min-width: 600px) {
+  .submit-button {
+    border: none;
+    padding: 0.5rem;
+    width: 30%;
+    max-width: 10rem;
+    align-self: flex-end;
+    font-size: large;
+    border-radius: 1rem;
+  }
+  .question {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0 5rem;
+    font-size: larger;
+    width: 100%;
+  }
+}
+.quiz-header {
+  display: flex;
+  justify-content: space-between;
+}
+.display-flex {
+  display: flex;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
+.vh-100 {
+  height: 100vh;
+}
+.gap-1rem {
+  gap: 1rem;
+}
+.border-none {
+  border: none;
+}
+.border-bottom {
+  border-bottom: 1px solid black;
+}
+.font-size-large {
+  font-size: large;
+}
+.flex-column {
+  flex-direction: column;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid #999;
+  padding: 0.5rem;
+  text-align: left;
+}
+.button-reset {
+  border: none;
+  padding: 0.5rem;
+}
+.text-align-center {
+  text-align: center;
+}
+.display-grid {
+  display: grid;
+}
+
+.grid-template-rows-1fr-8fr {
+  grid-template-rows: 1fr 8fr;
+}
+.margin-horizontal {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.border-radius-1rem {
+  border-radius: 1rem;
+}
+.padding_0_5rem {
+  padding: 0.5rem;
+}
+.font-size-large {
+  font-size: large;
+}
+.border-none {
+  border: none;
+}
+.align-self-center {
+  align-self: center;
+}
